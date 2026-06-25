@@ -1,0 +1,7 @@
+{
+  "name": "estudio-frontier-web",
+  "private": true,
+  "dependencies": {
+    "resend": "^6.14.0"
+  }
+}
