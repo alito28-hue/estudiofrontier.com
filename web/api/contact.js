@@ -22,7 +22,7 @@ module.exports = async function handler(req, res) {
   try {
     const resend = new Resend(process.env.RESEND_API_KEY);
     const { error } = await resend.emails.send({
-      from: 'Estudio Frontier <onboarding@resend.dev>',
+      from: 'Estudio Frontier - Ferreiro <onboarding@resend.dev>',
       to: TO_EMAIL,
       reply_to: Correo,
       subject: `Nueva consulta de ${Nombre}`,

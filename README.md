@@ -1,4 +1,4 @@
-# Estudio Frontier - Nueva versión del sitio
+# Estudio Frontier - Ferreiro — Nueva versión del sitio
 
 Este proyecto contiene una versión renovada del sitio web del estudio legal.
 
