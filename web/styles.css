@@ -316,6 +316,7 @@ h3 {
   justify-content: center;
   border-radius: 2px;
   text-align: center;
+  object-fit: cover;
 }
 
 .image-slot span {
