@@ -1,6 +1,6 @@
 const { Resend } = require('resend');
 
-const TO_EMAIL = 'contacto@estudiofrontier.com.ar';
+const TO_EMAIL = 'cristian@estudiofrontier.com';
 
 module.exports = async function handler(req, res) {
   if (req.method !== 'POST') {

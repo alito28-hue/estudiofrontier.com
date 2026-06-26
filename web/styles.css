@@ -150,6 +150,18 @@ h3 {
 
 .brand {
   display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-logo {
+  height: 36px;
+  width: auto;
+  display: block;
+}
+
+.brand-text {
+  display: flex;
   flex-direction: column;
   line-height: 1;
 }
@@ -887,17 +899,8 @@ h3 {
 }
 
 .footer-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: var(--bg-cream);
-  color: var(--bg-dark);
-  font-family: var(--font-serif);
-  font-size: 28px;
-  font-weight: 600;
+  height: 52px;
+  width: auto;
   flex-shrink: 0;
 }
 
