@@ -1,6 +1,10 @@
 const { Resend } = require('resend');
 
-const TO_EMAIL = 'cristian@estudiofrontier.com';
+// TEMP: onboarding@resend.dev (Resend's shared test sender) can only deliver
+// to the Resend account's own address until estudiofrontier.com is verified
+// as a domain in Resend. Switch back to cristian@estudiofrontier.com once
+// that's done — see README.md "Formulario de contacto".
+const TO_EMAIL = 'solutionslearning613@gmail.com';
 
 module.exports = async function handler(req, res) {
   if (req.method !== 'POST') {
