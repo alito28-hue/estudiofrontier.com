@@ -975,10 +975,6 @@ h3 {
     grid-template-columns: 1fr;
   }
 
-  .hero-media {
-    order: -1;
-  }
-
   .stat-grid {
     grid-template-columns: 1fr;
   }
